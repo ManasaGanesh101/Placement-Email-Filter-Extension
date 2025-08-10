@@ -5,7 +5,10 @@
     "description": "Show only placement-related emails in Gmail.",
     "permissions": ["storage"],
     "action": {
-      "default_popup": "popup.html"
+      "default_popup": "popup.html",
+      "default_icon" :{
+        "48": "icon.png"
+      }
     },
     "content_scripts": [
       {
